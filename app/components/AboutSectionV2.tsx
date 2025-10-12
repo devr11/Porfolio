@@ -1,7 +1,5 @@
 import Image from "next/image"
 import clsx from "clsx"
-import profilePhoto from "../images/profile.webp"
-import signature from "../images/signature.png"
 import { Text, Typography } from "../ui/Elements"
 import { AnimatedH2 } from "./ui/AnimatedH2"
 import { ImageReveal } from "./ImageReveal"
@@ -45,14 +43,18 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
                 {" "}
                 React Zero UI
               </a>
-              , a ~350B micro-library that updates the UI by flipping data-* attributes—eliminating React re-renders for UI state. This site runs on it, showcasing my focus on performance, interactivity, and 3D-enabled experiences.
+              , a ~350B micro-library that updates the UI by flipping data-* attributes—eliminating React re-renders for UI state. This site runs on it,
+              showcasing my focus on performance, interactivity, and 3D-enabled experiences.
             </p>
 
             <p>
-              <strong className="font-semibold text-slate-900">I ship v1s in weeks and iterate in days</strong>. Leveraging server-first React, typed APIs, background jobs, CI/CD, and observability. I craft intuitive interfaces, combining modern design, 3D interactions, and smooth animations. Small PRs, rapid feedback, no ceremony.
+              <strong className="font-semibold text-slate-900">I ship v1s in weeks and iterate in days</strong>. Leveraging server-first React, typed APIs,
+              background jobs, CI/CD, and observability. I craft intuitive interfaces, combining modern design, 3D interactions, and smooth animations. Small
+              PRs, rapid feedback, no ceremony.
             </p>
             <p>
-              <strong className="font-semibold text-slate-900">My core philosophy is simplicity</strong>. When complexity balloons, I remove it and design the cleanest, most elegant path, balancing performance, aesthetics, and usability.
+              <strong className="font-semibold text-slate-900">My core philosophy is simplicity</strong>. When complexity balloons, I remove it and design the
+              cleanest, most elegant path, balancing performance, aesthetics, and usability.
             </p>
 
             {/* signature */}
