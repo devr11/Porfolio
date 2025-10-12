@@ -2,8 +2,6 @@ import Image from "next/image"
 import { H3, Text } from "@/app/ui/Elements"
 import { MotionDiv } from "@/app/utils/lazy-ui"
 import { Icon } from "./Icon"
-import profilePhoto from "@/app/images/profile.webp"
-import { SITE_NAP } from "@/config/siteConfig"
 import { Mail } from "@react-zero-ui/icon-sprite"
 import { BlackButtonLink } from "./ui/BlackButtonLink"
 import { WhiteButtonLink } from "./ui/WhiteButtonLink"
@@ -21,11 +19,11 @@ export const RecruiterContact: React.FC = () => {
         >
           <div className="flex w-fit items-center gap-3 p-2 max-lg:justify-center">
             <div className="relative h-12 w-12 overflow-hidden rounded-full ring-4 ring-slate-200">
-              <Image src={profilePhoto} alt="Austin Serb" fill sizes="80px" className="object-cover" />
+              <Image src="/profile2.jpg" alt="Austin Serb" fill sizes="80px" className="object-cover" />
             </div>
             <div className="flex flex-col items-start text-sm whitespace-nowrap text-slate-700">
-              <h2 className="font-medium text-slate-900">Austin Serb</h2>
-              <p className="text-slate-500">Full-Stack - Frontend Focused</p>
+              <h2 className="font-medium text-slate-900">Dev Rastogi</h2>
+              <p className="text-slate-500">Frontend Developer - 3D Focused</p>
             </div>
           </div>
 
@@ -43,16 +41,16 @@ export const RecruiterContact: React.FC = () => {
           </div>
 
           <div className="flex flex-wrap items-center gap-4 max-lg:justify-center">
-            <BlackButtonLink href={`mailto:${SITE_NAP.email}`}>
+            <BlackButtonLink href={`mailto:`}>
               <Mail height={18} width={18} className="h-[18px] w-[18px] text-white" />
               Email me
             </BlackButtonLink>
 
-            <WhiteButtonLink href={SITE_NAP.profiles.linkedIn}>
+            <WhiteButtonLink href="https://www.linkedin.com/in/dev-rastogi-ab7692313/">
               <Icon name="linkedin" height={18} width={18} className="h-[18px] w-[18px]" />
               LinkedIn
             </WhiteButtonLink>
-            <WhiteButtonLink href={SITE_NAP.profiles.github}>
+            <WhiteButtonLink href="https://github.com/devr11">
               <Icon name="github" height={18} width={18} className="h-[18px] w-[18px]" />
               GitHub
             </WhiteButtonLink>

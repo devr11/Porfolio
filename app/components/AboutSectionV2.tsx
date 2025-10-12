@@ -15,7 +15,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
         <AnimatedH2>
           <span className="text-slate-500">About</span>
           <br />
-          Austin Serb
+          Dev Rastogi
         </AnimatedH2>
         <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-16">
           {/* ---------------- left column ---------------- */}
@@ -23,7 +23,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
           <div className="flex [flex:1_0_0px] flex-col gap-6">
             {/* portrait + overlay icons */}
 
-            <ImageReveal src={profilePhoto} alt="Austin Serb" className="custom-shadow aspect-[4/4.5]" />
+            <ImageReveal src="/profile.jpg" alt="Austin Serb" className="custom-shadow aspect-[4/4.5]" />
 
             {/* name + role */}
             <MotionDiv
@@ -32,33 +32,31 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
               viewport={{ once: true, margin: "0px 0px -100px 0px" }}
             >
               <Text as="h2" size="lg" className="font-medium">
-                Austin Serb
+                Dev Rastogi
               </Text>
-              <p className="text-sm text-gray-500">Full-Stack Engineer (Next.js + TypeScript)</p>
+              <p className="text-sm text-gray-500">Frontend Developer (with 3D skills)</p>
             </MotionDiv>
           </div>
           {/* ---------------- right column ---------------- */}
           <Typography as="article" size="lg" className="[flex:1.5_0_0px] space-y-8 text-slate-500">
             <p>
-              <strong className="font-semibold text-slate-900">I build production systems and invent tools</strong> when the platform gets in the way. I created
+              <strong className="font-semibold text-slate-900">I build frontend systems and invent tools</strong> when the platform gets in the way. I created
               <a href="https://github.com/react-zero-ui" target="_blank" rel="noopener">
                 {" "}
                 React Zero UI
               </a>
-              . A ~350B micro-library that updates UI by flipping data-* attributes, eliminating React re-renders for UI state. This site runs on it.
+              , a ~350B micro-library that updates the UI by flipping data-* attributes—eliminating React re-renders for UI state. This site runs on it, showcasing my focus on performance, interactivity, and 3D-enabled experiences.
             </p>
 
             <p>
-              <strong className="font-semibold text-slate-900">I ship v1s in weeks and iterate in days</strong>. Leveraging tools server-first React, typed
-              APIs, background jobs, CI/CD, and observability. Small PRs, rapid feedback, no ceremony.
+              <strong className="font-semibold text-slate-900">I ship v1s in weeks and iterate in days</strong>. Leveraging server-first React, typed APIs, background jobs, CI/CD, and observability. I craft intuitive interfaces, combining modern design, 3D interactions, and smooth animations. Small PRs, rapid feedback, no ceremony.
             </p>
             <p>
-              <strong className="font-semibold text-slate-900">My core philosophy is simplicity</strong>. if complexity balloons, I delete it and design the
-              simpler path.
+              <strong className="font-semibold text-slate-900">My core philosophy is simplicity</strong>. When complexity balloons, I remove it and design the cleanest, most elegant path, balancing performance, aesthetics, and usability.
             </p>
 
             {/* signature */}
-            <Image src={signature} alt="Austin Serb Signature" className="relative mt-6 -ml-3 h-12 w-auto" />
+            <Image src="/sign.png" alt="Austin Serb Signature" width={250} height={50} className="relative mt-6 -ml-3" />
           </Typography>
         </div>
       </div>

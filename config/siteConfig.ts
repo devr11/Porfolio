@@ -47,14 +47,14 @@ export const SITE_SLUGS = {
   projectLinks: {
     iao: "/projects/iron-and-oak",
     automedics: "/projects/automedics",
-    bespoke: "/projects/bespoke",
+    bespoke: "/https://github.com/devr11/Amazing-Keyboards",
   },
 } as const
 
 export const externalLinks = {
   vetsChoice: "https://vetschoiceinsurance.com/",
   zeroIconSprite: "https://github.com/react-zero-ui/icon-sprite",
-  zeroCore: "https://github.com/react-zero-ui/core",
+  zeroCore: "https://github.com/devr11/Amazing-Keyboards",
   entitled: "https://be-entitled.com/",
 } as const
 

@@ -1,9 +1,7 @@
 import Image from "next/image"
-import profilePhoto from "@/public/assets/founder.jpg"
 import clsx from "clsx"
 import type { Variants } from "motion"
 import { MotionButton, MotionDiv } from "@/app/utils/lazy-ui"
-import { SITE_NAP } from "@/config/siteConfig"
 import { Icon } from "../Icon"
 
 export const CallToActionButton = () => {
@@ -60,7 +58,7 @@ export const CallToActionButton = () => {
   }
 
   return (
-    <a href={SITE_NAP.profiles.github} target="_blank" rel="noopener" aria-label="Austin Serb's GitHub">
+    <a href="https://github.com/devr11" target="_blank" rel="noopener" aria-label="Austin Serb's GitHub">
       <MotionButton
         initial="initial"
         animate="animate"
@@ -72,7 +70,7 @@ export const CallToActionButton = () => {
         <div className="relative flex items-center gap-1">
           {/* Avatar */}
           <div className="relative h-7 w-7 rounded-full">
-            <Image src={profilePhoto} alt="Profile photo of the founder" fill sizes="50px" className="rounded-full object-cover ring-2 ring-white/75" />
+            <Image src="/profile2.jpg" alt="Profile photo of the founder" fill sizes="50px" className="rounded-full object-cover ring-2 ring-white/75" />
           </div>
 
           {/* + You entrance */}

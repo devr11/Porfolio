@@ -1,18 +1,10 @@
 import { StaticImageData } from "next/image"
 import { Card } from "@/app/components/ProjectCard/Card"
-import iaoPreview from "@/app/images/iao-preview-v2.webp"
-import bespokePreview from "@/app/images/bespoke-preview-v2.webp"
-import automedicsPreview from "@/app/images/automedics-preview-v2.webp"
-import entitledPreview from "@/app/images/entitled-preview-v2.webp"
-import IconSpritePreview from "@/app/images/zero-icon-sprite-preview.jpg"
-import zeroPreview from "@/app/images/react-zero-ui-preview.jpg"
-import vetsChoiceInsurancePreview from "@/images/vets-choice-insurance-preview.webp"
 import { Link } from "@/app/utils/Link"
-import { externalLinks, SITE_SLUGS } from "@/config/siteConfig"
 
 type StaticProject = {
   id: string
-  src: StaticImageData
+  src: string | StaticImageData
   alt: string
   color: string
   type: string
@@ -26,88 +18,50 @@ type StaticProject = {
 export const STATIC_PROJECTS: StaticProject[] = [
   {
     id: "react-zero-ui",
-    src: zeroPreview,
-    alt: "React-Zero-UI - Preview",
+    src: "/Screenshot 2025-10-11 141024.png",
+    alt: "The-Spylt-Shelf - Preview",
     color: "#3B06D1",
     type: "Zero Re-Render State Library",
-    text: "View on GitHub",
-    href: externalLinks.zeroCore,
-    dataText: "View on GitHub",
+    text: "View Website",
+    href: "https://awwwards-gsap-sigma.vercel.app/",
+    dataText: "View Website",
     ariaLabel: "View React Zero UI on GitHub",
     isExternal: true,
   },
   {
     id: "bespoke",
-    src: bespokePreview,
-    alt: "Bespoke Preview",
+    src: "/Screenshot 2025-10-11 135500.png",
+    alt: "Amazing-Keyboards - Preview",
     color: "#024EFC",
     type: "Automotive Styling Website",
-    text: "See Case Study",
-    href: SITE_SLUGS.projectLinks.bespoke,
-    dataText: "See Case Study",
-    ariaLabel: "See Bespoke Website Build Case Study",
-    isExternal: false,
+    text: "View Website",
+    href: "https://amazing-keyboards.vercel.app/",
+    dataText: "View Website",
+    ariaLabel: "View Bespoke Website Build Case Study",
+    isExternal: true,
   },
   {
     id: "vets-choice",
-    src: vetsChoiceInsurancePreview,
-    alt: "Vets Choice Insurance Preview",
+    src: "/Sabzi.png",
+    alt: "Sabzi-Source Preview",
     color: "#DA961AA5",
-    type: "Pet Insurance Website",
+    type: "Local Supply Chain Platform",
     text: "View Website",
-    href: externalLinks.vetsChoice,
+    href: "https://lovable.dev/projects/9290d91e-42ab-48aa-be8e-0912c88ff478",
     dataText: "View Website",
     ariaLabel: "View Vets Choice Insurance Website",
     isExternal: true,
   },
   {
     id: "zero-icon-sprite",
-    src: IconSpritePreview,
-    alt: "Zero-Icon-Sprite Preview",
+    src: "/Screenshot 2025-10-12 121409.png",
+    alt: "3D-Car-Showcase Preview",
     color: "#3B06D1A5",
     type: "SVG Build Tool",
-    text: "View on GitHub",
-    href: externalLinks.zeroIconSprite,
-    dataText: "View on GitHub",
-    ariaLabel: "View React Zero UI Icon Sprite on GitHub",
-    isExternal: true,
-  },
-
-  {
-    id: "automedics",
-    src: automedicsPreview,
-    alt: "Automedics Preview",
-    color: "#000000",
-    type: "Automotive Repair Website",
-    text: "See Case Study",
-    href: SITE_SLUGS.projectLinks.automedics,
-    dataText: "See Case Study",
-    ariaLabel: "See Automedics Website Build Case Study",
-    isExternal: false,
-  },
-
-  {
-    id: "iron-oak",
-    src: iaoPreview,
-    alt: "IAO Preview",
-    color: "#13739C",
-    type: "Private Security Website",
-    text: "See Case Study",
-    href: SITE_SLUGS.projectLinks.iao,
-    dataText: "See Case Study",
-    ariaLabel: "See Iron & Oak Website Build Case Study",
-    isExternal: false,
-  },
-  {
-    id: "entitled",
-    src: entitledPreview,
-    alt: "Entitled Preview",
-    color: "#DA961AA5",
-    type: "Event Management Web App",
     text: "View Website",
-    href: externalLinks.entitled,
+    href: "https://github.com/devr11/Car-Show-Case",
     dataText: "View Website",
-    ariaLabel: "View Entitled Website",
+    ariaLabel: "View React Zero UI Icon Sprite on GitHub",
     isExternal: true,
   },
 ]
