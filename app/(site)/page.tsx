@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Explore the web developer portfolio of Austin Serb, a full-stack engineer building fast, modern web applications. See what a professional coding portfolio looks like, featuring projects in React, Next.js, and the custom-built React-Zero-UI library.",
 
   keywords: [
-    "Austin Serb",
+    "Dev Rastogi",
     "Web Developer Portfolio",
     "Serbyte",
     "React Zero-UI",
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
 
     "React Developer Portfolio",
   ],
-  authors: [{ name: "Austin Serb" }],
-  creator: "Austin Serb",
+  authors: [{ name: "Dev Rastogi" }],
+  creator: "Dev Rastogi",
   alternates: {
     canonical: SITE_SLUGS.home,
   },

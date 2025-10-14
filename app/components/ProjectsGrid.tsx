@@ -76,14 +76,14 @@ export function ProjectsGrid({ className }: { className?: string }) {
           dataText="View on GitHub"
         />
         <AnimatedCard
-          href="https://github.com/devr11/Car-Show-Case"
+          href="https://github.com/devr11/Nova-Creative"
           key="Bespoke"
-          src="/Screenshot 2025-10-12 121409.png"
-          alt={"3D-Car-Showcase - Preview"}
+          src="/Screenshot 2025-10-14 155736.png"
+          alt={"Nova-Creative - Preview"}
           offset={offsets["bespoke"]}
           gridId="bespoke"
           color="#024EFC"
-          type="3D Car Showcase"
+          type="Nova Creative"
           progress={progress}
           dataText="View on GitHub"
         />
