@@ -64,53 +64,55 @@ export function ProjectsGrid({ className }: { className?: string }) {
     <section id="projects-grid" className={clsx("relative scroll-mt-36", className)} ref={ref}>
       <div className="relative z-4 grid grid-cols-1 grid-rows-1 gap-4 md:grid-cols-2 md:grid-rows-2">
         <AnimatedCard
-          key={"react-zero-ui"}
-          src="/Screenshot 2025-10-11 141024.png"
-          alt={"The-Spylt-Shelf - Preview"}
-          offset={offsets["react-zero-ui"]}
-          gridId="react-zero-ui"
-          color="#3B06D1"
-          type="The Spylt Shelf"
-          progress={progress}
-          href="https://github.com/devr11/Awwwards-GSAP"
-          dataText="View on GitHub"
-        />
-        <AnimatedCard
-          href="https://github.com/devr11/Nova-Creative"
-          key="Bespoke"
-          src="/Screenshot 2025-10-14 155736.png"
-          alt={"Nova-Creative - Preview"}
-          offset={offsets["bespoke"]}
-          gridId="bespoke"
-          color="#024EFC"
-          type="Nova Creative"
-          progress={progress}
-          dataText="View on GitHub"
-        />
-
-        <AnimatedCard
-          href="https://lovable.dev/projects/9290d91e-42ab-48aa-be8e-0912c88ff478"
-          key="Automedics"
-          src="/Sabzi.png"
-          alt={"Sabzi-Source Preview"}
-          offset={offsets["automedics"]}
-          gridId="automedics"
-          color="#DA961A"
-          type="Local Supply Chain Platform"
-          progress={progress}
-          dataText="View on GitHub"
-        />
-        <AnimatedCard
-          href="https://github.com/devr11/Amazing-Keyboards"
+          href="https://amazing-keyboards.vercel.app/"
           key={"IAO"}
           src="/Screenshot 2025-10-11 135500.png"
           alt={"Amazing-Keyboards Preview"}
           offset={offsets["iron-and-oak"]}
           gridId="iron-and-oak"
           color="#13739C"
-          type="Private Security"
+          type="Realtime Product Configurator UI"
           progress={progress}
-          dataText="View on GitHub"
+          dataText="View Project"
+        />
+
+        <AnimatedCard
+          href="https://talent-iq-production-8297.up.railway.app/"
+          key="Automedics"
+          src="/Screenshot 2025-12-12 185655.png"
+          alt={"Talent-IQ Preview"}
+          offset={offsets["automedics"]}
+          gridId="automedics"
+          color="#DA961A"
+          type="Remote Video Interview \& Assessment Platform"
+          progress={progress}
+          dataText="View Project"
+        />
+
+        <AnimatedCard
+          href="https://k72-eight.vercel.app/"
+          key="Bespoke"
+          src="/Screenshot 2025-10-14 155736.png"
+          alt={"Nova-Creative - Preview"}
+          offset={offsets["bespoke"]}
+          gridId="bespoke"
+          color="#024EFC"
+          type="K72"
+          progress={progress}
+          dataText="View Project"
+        />
+
+        <AnimatedCard
+          key={"react-zero-ui"}
+          src="/Screenshot 2025-10-11 141024.png"
+          alt={"The-Spylt-Shelf - Preview"}
+          offset={offsets["react-zero-ui"]}
+          gridId="react-zero-ui"
+          color="#3B06D1"
+          type="Creativity ShowCase"
+          progress={progress}
+          href="https://awwwards-gsap-sigma.vercel.app/"
+          dataText="View Project"
         />
       </div>
     </section>
