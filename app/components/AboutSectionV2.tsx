@@ -32,29 +32,20 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
               <Text as="h2" size="lg" className="font-medium">
                 Dev Rastogi
               </Text>
-              <p className="text-sm text-gray-500">Frontend Developer (with 3D skills)</p>
+              <p className="text-sm text-gray-500">Full Stack Developer</p>
             </MotionDiv>
           </div>
           {/* ---------------- right column ---------------- */}
           <Typography as="article" size="lg" className="[flex:1.5_0_0px] space-y-8 text-slate-500">
             <p>
-              <strong className="font-semibold text-slate-900">I build frontend systems and invent tools</strong> when the platform gets in the way. I created
-              <a href="https://github.com/react-zero-ui" target="_blank" rel="noopener">
-                {" "}
-                React Zero UI
-              </a>
-              , a ~350B micro-library that updates the UI by flipping data-* attributes—eliminating React re-renders for UI state. This site runs on it,
-              showcasing my focus on performance, interactivity, and 3D-enabled experiences.
+              <strong className="font-semibold text-slate-900">I build full-stack applications and immersive interfaces</strong> by combining modern web technologies with 3D/interactive design. I enjoy creating tools, components, and workflows that make UIs faster, smoother, and more intuitive—whether it’s real-time 3D elements, custom animations, or scalable system architecture.
             </p>
 
             <p>
-              <strong className="font-semibold text-slate-900">I ship v1s in weeks and iterate in days</strong>. Leveraging server-first React, typed APIs,
-              background jobs, CI/CD, and observability. I craft intuitive interfaces, combining modern design, 3D interactions, and smooth animations. Small
-              PRs, rapid feedback, no ceremony.
+              <strong className="font-semibold text-slate-900">I ship performant products quickly and iterate rapidly.</strong>. I work end-to-end across React, Node.js, databases, APIs, and deployments, while integrating 3D experiences using Three.js and advanced animation libraries. My focus is delivering expressive, user-centered interfaces with clean code, seamless interactions, and measurable performance.
             </p>
             <p>
-              <strong className="font-semibold text-slate-900">My core philosophy is simplicity</strong>. When complexity balloons, I remove it and design the
-              cleanest, most elegant path, balancing performance, aesthetics, and usability.
+              <strong className="font-semibold text-slate-900">My core philosophy is clarity in complexity.</strong>. Even when building interactive 3D features or full-stack systems, I prioritize simple architecture, readable code, and frictionless user experience. I believe great engineering balances performance, aesthetics, and practicality.
             </p>
 
             {/* signature */}

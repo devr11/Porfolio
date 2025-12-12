@@ -29,7 +29,7 @@ export const HeroV2 = () => {
           </h1>
 
           <AnimatedElement element="p" delay={0.6} className="max-w-xs text-sm leading-snug tracking-tight text-slate-700 md:max-w-sm md:pr-4 md:text-base">
-            <span className="font-semibold text-slate-900">Frontend-focused Developer</span> skilled in React, Next.js, and 3D design — creating immersive, performant, and aesthetically refined interfaces.
+            <span className="font-semibold text-slate-900">Frontend focused full Stack Developer</span> skilled in React, Next.js, and 3D design — creating immersive, performant, and aesthetically refined interfaces.
           </AnimatedElement>
 
           <CallToActionButton />

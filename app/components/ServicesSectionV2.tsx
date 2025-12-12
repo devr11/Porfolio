@@ -1,6 +1,6 @@
 import clsx from "clsx"
 // 1. Import icons from react-icons (using Si for Simple Icons)
-import { SiReact, SiNextdotjs, SiTypescript, SiOpencv, SiFigma, SiTailwindcss, SiHtml5, SiThreedotjs, SiJavascript, SiGit, SiGithub, SiC } from "react-icons/si"
+import { SiReact, SiNextdotjs, SiTypescript, SiOpencv, SiTailwindcss, SiHtml5, SiThreedotjs, SiJavascript, SiGit, SiGithub, SiC } from "react-icons/si"
 import { FaMagic, FaPaintBrush, FaGlobe, FaStar, FaCode, FaCube, FaJava, FaCircle } from "react-icons/fa"
 
 import { Text } from "../ui/Elements"
@@ -15,7 +15,6 @@ const IconMap: { [key: string]: React.ElementType } = {
   next: SiNextdotjs,
   typescript: SiTypescript,
   openai: SiOpencv, // Using OpenCV as a placeholder for OpenAI (no dedicated SiOpenai)
-  figma: SiFigma,
   motion: FaCube, // Using a generic cube icon for 'motion'
   tailwindcss: SiTailwindcss,
   html: SiHtml5,
@@ -73,7 +72,6 @@ const tech = [
   { name: "React", src: "react" as keyof typeof IconMap },
   { name: "Next", src: "next" as keyof typeof IconMap },
   { name: "TypeScript", src: "typescript" as keyof typeof IconMap },
-  { name: "Figma", src: "figma" as keyof typeof IconMap },
   { name: "Motion", src: "motion" as keyof typeof IconMap },
   { name: "Tailwind", src: "tailwindcss" as keyof typeof IconMap },
   { name: "Html", src: "html" as keyof typeof IconMap },
@@ -91,7 +89,6 @@ const services = [
   { name: "Full Stack Development", src: "magic-wand" as keyof typeof IconMap },
   { name: "React Development", src: "paint-bucket" as keyof typeof IconMap },
   { name: "Performance Optimization", src: "web" as keyof typeof IconMap },
-  { name: "UI/UX Design", src: "world" as keyof typeof IconMap },
   { name: "Code Reviews", src: "planet" as keyof typeof IconMap },
   { name: "Advanced Motion", src: "cube" as keyof typeof IconMap },
 ]
